@@ -1,4 +1,4 @@
-# getir-assign
+# fizzbuzz-assign
 
 ## Manual Installation
 
