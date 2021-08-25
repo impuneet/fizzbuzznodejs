@@ -81,6 +81,11 @@ src\
 **Record routes**:\
 
 `POST /v1/records` - Get FizzBuz Program logic\
+Payload : 
+{
+  "count" : 100
+}
+
 
 ## Error Handling
 Controllers should try to catch the errors and forward them to the error handling middleware (by calling `next(error)`). For convenience, you can also wrap the controller inside the catchAsync utility wrapper, which forwards the error.
